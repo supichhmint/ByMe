@@ -6,7 +6,7 @@
 <!--<section id="about" align="center"  padding-top= "50%">-->
 <!--<div class="container">-->
 <div class="welcome about">
-    <div class="container" align="center">
+    <div class="container" >
         <div class="row">
             <div>
                 <h2>เขื่อนป่าสักชลสิทธิ์</h2>
