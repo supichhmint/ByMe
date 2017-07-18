@@ -19,19 +19,6 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="row">
-					<div class="col-xs-12">
-						<div class="blog-banner blog-container" style="background-image:url('img/1.jpg')">
-							<div class="blog-banner-avatar">
-								<a href="javascript:;">
-								<img src="https://scontent.xx.fbcdn.net/v/t1.0-1/s200x200/16508263_1660676713946062_4952681256780516861_n.jpg?oh=409dd134e21cea115ec4bee48f6f2aea&amp;oe=5A0DBEE6" alt="avatar">                            </a>
-							</div>
-							<h2 class="blog-title blog-banner-title">
-								ยินดีต้อนรับ คุณSupichaya Kantawong <a href="/setting" class="btn btn-no-bg tooltips" title="แก้ไขการตั้งค่าของท่าน"><i class="fa fa-gear fa-2x font-yellow" style="margin-left: -5px;text-shadow: 2px 2px 1px #444;"></i></a>
-							</h2>
-						</div>
-					</div>
-				</div>
-				<div class="row">
 					<div class="col-md-9">
 						<h1>กิจกรรมเมื่อเร็วๆนี้</h1>
 						<div class="travelo-box">
