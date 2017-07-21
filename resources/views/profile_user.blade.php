@@ -2,18 +2,14 @@
 @section('title', 'profile') 
 @section('content')
 
-
+<!--
 <link href="css/bootstrap3.min.css" rel="stylesheet" type="text/css" >
-<link href="css/thaitravelcenter.css" rel="stylesheet" type="text/css" >
+
 	<link href="css/member-style.css" type="text/css" rel="stylesheet">
-	<link href="css/blog.min.css" rel="stylesheet" type="text/css">
-	<link href="css/profile.min.css" rel="stylesheet" type="text/css">
+	<link href="css/blog.min.css" rel="stylesheet" type="text/css">-->
+	
 	<link href="css/blogttc.css" rel="stylesheet" type="text/css">
-	<style>
-		.ttc-promotion .box img {
-			height: 179px;
-		}
-	</style>
+	<link href="css/profile.min.css" rel="stylesheet" type="text/css">
 	<div class="container">
 	<div class="blog-page blog-content-1">
 		<div class="row">

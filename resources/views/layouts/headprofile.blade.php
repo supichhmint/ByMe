@@ -95,13 +95,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
               <div class="banner-text">
                 <div class="container">
                   <div class="banner-w3lstext">
-
                     <div class="blog-banner blog-container" style="background-image:url('img/1.jpg')">
                       <div class="blog-banner-avatar">
                         <a href="javascript:;">
 								<img src="https://scontent.xx.fbcdn.net/v/t1.0-1/s200x200/16508263_1660676713946062_4952681256780516861_n.jpg?oh=409dd134e21cea115ec4bee48f6f2aea&amp;oe=5A0DBEE6" alt="avatar">                            </a>
                       </div>
-                      <h2 class="blog-title blog-banner-title">
+                      <h2>
                         ยินดีต้อนรับ คุณSupichaya Kantawong <a href="/setting" class="btn btn-no-bg tooltips" title="แก้ไขการตั้งค่าของท่าน"><i class="fa fa-gear fa-2x font-yellow" style="margin-left: -5px;text-shadow: 2px 2px 1px #444;"></i></a>
                       </h2>
                     </div>
@@ -112,122 +111,97 @@ License URL: http://creativecommons.org/licenses/by/3.0/
           </div>
         </div>
       </div>
-      <!--help
-        <div class="blog-page blog-content-1">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="row">
-                <div class="col-xs-12">
-                  <div class="blog-banner blog-container" style="background-image:url('img/1.jpg')">
-                    <div class="blog-banner-avatar">
-                      <a href="javascript:;">
-								<img src="https://scontent.xx.fbcdn.net/v/t1.0-1/s200x200/16508263_1660676713946062_4952681256780516861_n.jpg?oh=409dd134e21cea115ec4bee48f6f2aea&amp;oe=5A0DBEE6" alt="avatar">                            </a>
-                    </div>
-                    <h2 class="blog-title blog-banner-title">
-                      ยินดีต้อนรับ คุณSupichaya Kantawong <a href="/setting" class="btn btn-no-bg tooltips" title="แก้ไขการตั้งค่าของท่าน"><i class="fa fa-gear fa-2x font-yellow" style="margin-left: -5px;text-shadow: 2px 2px 1px #444;"></i></a>
-                    </h2>
-                  </div>
-                </div>
-              </div>    
-          
+    </div>
+  </div>
+  @yield('content')
+  <!-- footer start here -->
+  <div class="footer-agile">
+    <div class="container">
+      <div class="footer-agileinfo">
+        <div class="col-md-5 col-sm-5 footer-wthree-grid">
+          <div class="agileits-w3layouts-tweets">
+            <h5><a href="index.html">Up To Train</a></h5>
+            <div class="social-icon footerw3ls">
+              <a href="#" class="social-button facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="social-button twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="social-button google"><i class="fa fa-google-plus"></i></a>
+            </div>
+          </div>
+          <p>เว็บไซต์ที่รวบรวมทริปท่องเที่ยวโดยรถไฟภายในประเทศไทย เชิญคุณพบกับประสบการณ์ใหม่ๆโดยการท่องเที่ยวโดยรถไฟ</p>
         </div>
+        <div class="col-md-3 col-sm-3 footer-wthree-grid">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html"><span class="glyphicon glyphicon-menu-right"></span> Home</a></li>
+            <li><a href="about.html"><span class="glyphicon glyphicon-menu-right"></span> About</a></li>
+            <li><a href="tours.html"><span class="glyphicon glyphicon-menu-right"></span> Tours</a></li>
+            <li><a href="codes.html"><span class="glyphicon glyphicon-menu-right"></span> Short Codes</a></li>
+            <li><a href="contact.html"><span class="glyphicon glyphicon-menu-right"></span> Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-sm-4 footer-wthree-grid">
+          <h3>Contact Info</h3>
+          <ul>
+            <li>123 Broome St,2nd Block</li>
+            <li>NY 10002, New York</li>
+            <li>Phone: +01 111 222 3333</li>
+            <li><a href="mailto:info@example.com"> mail@example.com</a></li>
+          </ul>
+        </div>
+        <div class="clearfix"> </div>
+      </div>
+      <div class="copy-right">
+        <p>© 2017 Holiday Spot . All rights reserved | Design by <a href="http://w3layouts.com/" target="_blank"> Winnie secret</a></p>
       </div>
     </div>
   </div>
-            @yield('content')
+  <!-- //footer end here -->
+  <!-- swipe box js -->
+  <script src="js/jquery.swipebox.min.js"></script>
+  <script type="text/javascript">
+    jQuery(function ($) {
+      $(".swipebox").swipebox();
+    });
+  </script>
+  <!-- //swipe box js -->
+  <!-- start-smooth-scrolling -->
+  <script type="text/javascript" src="js/move-top.js"></script>
+  <script type="text/javascript" src="js/easing.js"></script>
+  <script type="text/javascript">
+    jQuery(document).ready(function ($) {
+      $(".scroll").click(function (event) {
+        event.preventDefault();
 
+        $('html,body').animate({
+          scrollTop: $(this.hash).offset().top
+        }, 1000);
+      });
+    });
+  </script>
+  <!-- //end-smooth-scrolling -->
+  <!-- smooth-scrolling-of-move-up -->
+  <script type="text/javascript">
+    $(document).ready(function () {
+      /*
+      var defaults = {
+      	containerID: 'toTop', // fading element id
+      	containerHoverID: 'toTopHover', // fading element hover id
+      	scrollSpeed: 1200,
+      	easingType: 'linear' 
+      };
+      */
 
+      $().UItoTop({
+        easingType: 'easeOutQuart'
+      });
 
-
-
-  <!-- footer start here -->
-      <div class="footer-agile">
-        <div class="container">
-          <div class="footer-agileinfo">
-            <div class="col-md-5 col-sm-5 footer-wthree-grid">
-              <div class="agileits-w3layouts-tweets">
-                <h5><a href="index.html">Up To Train</a></h5>
-                <div class="social-icon footerw3ls">
-                  <a href="#" class="social-button facebook"><i class="fa fa-facebook"></i></a>
-                  <a href="#" class="social-button twitter"><i class="fa fa-twitter"></i></a>
-                  <a href="#" class="social-button google"><i class="fa fa-google-plus"></i></a>
-                </div>
-              </div>
-              <p>เว็บไซต์ที่รวบรวมทริปท่องเที่ยวโดยรถไฟภายในประเทศไทย เชิญคุณพบกับประสบการณ์ใหม่ๆโดยการท่องเที่ยวโดยรถไฟ</p>
-            </div>
-            <div class="col-md-3 col-sm-3 footer-wthree-grid">
-              <h3>Quick Links</h3>
-              <ul>
-                <li><a href="index.html"><span class="glyphicon glyphicon-menu-right"></span> Home</a></li>
-                <li><a href="about.html"><span class="glyphicon glyphicon-menu-right"></span> About</a></li>
-                <li><a href="tours.html"><span class="glyphicon glyphicon-menu-right"></span> Tours</a></li>
-                <li><a href="codes.html"><span class="glyphicon glyphicon-menu-right"></span> Short Codes</a></li>
-                <li><a href="contact.html"><span class="glyphicon glyphicon-menu-right"></span> Contact</a></li>
-              </ul>
-            </div>
-            <div class="col-md-4 col-sm-4 footer-wthree-grid">
-              <h3>Contact Info</h3>
-              <ul>
-                <li>123 Broome St,2nd Block</li>
-                <li>NY 10002, New York</li>
-                <li>Phone: +01 111 222 3333</li>
-                <li><a href="mailto:info@example.com"> mail@example.com</a></li>
-              </ul>
-            </div>
-            <div class="clearfix"> </div>
-          </div>
-          <div class="copy-right">
-            <p>© 2017 Holiday Spot . All rights reserved | Design by <a href="http://w3layouts.com/" target="_blank"> Winnie secret</a></p>
-          </div>
-        </div>
-      </div>
-      <!-- //footer end here -->
-      <!-- swipe box js -->
-      <script src="js/jquery.swipebox.min.js"></script>
-      <script type="text/javascript">
-        jQuery(function ($) {
-          $(".swipebox").swipebox();
-        });
-      </script>
-      <!-- //swipe box js -->
-      <!-- start-smooth-scrolling -->
-      <script type="text/javascript" src="js/move-top.js"></script>
-      <script type="text/javascript" src="js/easing.js"></script>
-      <script type="text/javascript">
-        jQuery(document).ready(function ($) {
-          $(".scroll").click(function (event) {
-            event.preventDefault();
-
-            $('html,body').animate({
-              scrollTop: $(this.hash).offset().top
-            }, 1000);
-          });
-        });
-      </script>
-      <!-- //end-smooth-scrolling -->
-      <!-- smooth-scrolling-of-move-up -->
-      <script type="text/javascript">
-        $(document).ready(function () {
-          /*
-          var defaults = {
-          	containerID: 'toTop', // fading element id
-          	containerHoverID: 'toTopHover', // fading element hover id
-          	scrollSpeed: 1200,
-          	easingType: 'linear' 
-          };
-          */
-
-          $().UItoTop({
-            easingType: 'easeOutQuart'
-          });
-
-        });
-      </script>
-      <!-- //smooth-scrolling-of-move-up -->
-      <!-- Bootstrap core JavaScript
+    });
+  </script>
+  <!-- //smooth-scrolling-of-move-up -->
+  <!-- Bootstrap core JavaScript
     ================================================== -->
-      <!-- Placed at the end of the document so the pages load faster -->
-      <script src="js/bootstrap2.js"></script>
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="js/bootstrap2.js"></script>
 </body>
 
 </html>
