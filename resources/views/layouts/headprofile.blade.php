@@ -24,12 +24,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   </script>
   <!--Custom Theme files-->
   <link href="css/bootstrap2.css" type="text/css" rel="stylesheet">
-  <link href="css/style.css" type="text/css" rel="stylesheet">
+  <link href="css/profile/style.css" type="text/css" rel="stylesheet">
+  <link href="css/profile/member-style.css" type="text/css" rel="stylesheet">
 
-
-  <!--<link rel="stylesheet" href="css/swipebox.css">
-  <link rel="stylesheet" href="css/ziehharmonika.css">
-  <!-- //Custom Theme files -->
   <!-- font-awesome icons -->
   <link href="css/font-awesome.css" rel="stylesheet">
   <!-- //font-awesome icons -->
@@ -40,71 +37,72 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic'
     rel='stylesheet' type='text/css'>
   <link href="//fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
-  <!--<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Athiti|Chonburi|Itim|Kanit|Maitree|Mitr|Pattaya|Pridi|Prompt|Sriracha|Taviraj|Trirong" rel="stylesheet">
-  <!-- //web-fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
 </head>
 
 <body>
   <!-- banner -->
-  <div class="banner about-banner">
-    <div class="header agileinfo-header">
-      <!-- header -->
-      <nav class="navbar navbar-default">
-        <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-              aria-expanded="false">
+  <header id="header" class="navbar-static-top style6">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+          aria-expanded="false">
 							<span class="sr-only">Toggle navigation</span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-            <h1><a href="index.html">Up To Train</a></h1>
-          </div>
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-left">
-              <li><a href="index.html" class="w3ls-hover">Home</a></li>
-              <li><a href="about.html" class="btn w3ls-hover">Trips</a></li>
-              <li><a href="about.html" class="btn w3ls-hover">Tours</a></li>
-              <li><a href="tours.html" class="btn w3ls-hover">Railway</a></li>
-              <li><a href="contact.html" class="btn w3ls-hover">Contact</a></li>
-              <li><a href="#" class="dropdown-toggle btn w3ls-hover" data-toggle="dropdown" role="button" aria-haspopup="true"
-                  aria-expanded="false"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> User <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="icons.html">Profile</a></li>
-                  <li><a href="codes.html">Log Out</a></li>
-                </ul>
-              </li>
-            </ul>
-            <div class="clearfix"> </div>
-          </div>
-          <!-- //navbar-collapse -->
-        </div>
-        <!-- //container-fluid -->
-      </nav>
+        <h1><a href="index.html">Up To Train</a></h1>
+      </div>
+
+      <div class="topnav pull-right">
+        <ul class="quick-menu pull-right clearfix">
+          <li><a href="javascript:;">Supichaya Kantawong</a></li>
+          <li><a href="/_member/logout.php">ออกจากระบบ</a></li>
+        </ul>
+      </div>
     </div>
-    <!-- //header-->
+    <div class="main-navigation">
+      <div class="container">
+        <nav id="main-menu" role="navigation">
+          <ul class="menu">
+            <li class="">
+              <a href="/_member/home/th">
+						หน้าหลัก 					  </a>
+            </li>
+            <li class="">
+              <a href="/_member/reservation/th">
+						ข้อมูลการจอง					  </a>
+            </li>
+            <li class="">
+              <a href="/_member/report/th">
+						รายงาน					  </a>
+            </li>
+            <li class="">
+              <a href="/_member/setting/th">
+						ตั้งค่า					  </a>
+            </li>
+          </ul>
+          <div class="clearfix"> </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <div class="banner about-banner" style="background-image:url('img/2.jpg')">
     <div class="blog-page blog-content-1">
       <div class="row">
-        <div class="col-lg-12">
-          <div class="row">
-            <div class="col-xs-12">
-              <div class="banner-text">
-                <div class="container">
-                  <div class="banner-w3lstext">
-                    <div class="blog-banner blog-container" style="background-image:url('img/1.jpg')">
-                      <div class="blog-banner-avatar">
-                        <a href="javascript:;">
+        <div class="col-xs-12">
+          <div class="banner-text">
+            <div class="container">
+              <div class="banner-w3lstext">
+                <div class="blog-banner blog-container">
+                  <div class="blog-banner-avatar">
+                    <a href="javascript:;">
 								<img src="https://scontent.xx.fbcdn.net/v/t1.0-1/s200x200/16508263_1660676713946062_4952681256780516861_n.jpg?oh=409dd134e21cea115ec4bee48f6f2aea&amp;oe=5A0DBEE6" alt="avatar">                            </a>
-                      </div>
-                      <h2>
-                        ยินดีต้อนรับ คุณSupichaya Kantawong <a href="/setting" class="btn btn-no-bg tooltips" title="แก้ไขการตั้งค่าของท่าน"><i class="fa fa-gear fa-2x font-yellow" style="margin-left: -5px;text-shadow: 2px 2px 1px #444;"></i></a>
-                      </h2>
-                    </div>
                   </div>
+                  <h3>
+                    ยินดีต้อนรับ คุณSupichaya Kantawong <a href="/setting" class="btn btn-no-bg tooltips" title="แก้ไขการตั้งค่าของท่าน"><i class="fa fa-gear fa-2x font-yellow" style="margin-left: -5px;text-shadow: 2px 2px 1px #444;"></i></a>
+                  </h3>
                 </div>
               </div>
             </div>
@@ -113,6 +111,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
       </div>
     </div>
   </div>
+
+
+  <!-- //header-->
+
+
+
   @yield('content')
   <!-- footer start here -->
   <div class="footer-agile">

@@ -215,7 +215,28 @@ Route::get('/profile_user', function()
 
 
 );
+Route::get('/profile_setting', function()
+{
+	
+	
+	
+	
+	
+	
+	return view('/profile_setting');
+	
+	
+	
+	
+	
+	
+}
 
+
+
+
+
+);
 
 
 

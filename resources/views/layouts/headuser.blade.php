@@ -38,6 +38,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic'
 	  rel='stylesheet' type='text/css'>
 	<link href="//fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
 	<!-- //web-fonts -->
 </head>
 

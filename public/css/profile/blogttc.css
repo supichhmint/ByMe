@@ -7,7 +7,7 @@
 }
 
 .travelo-box {
-    padding: 20px 10px 20px 20px;
+    padding: 50px 10px 20px 20px;
 }
 
 .travelo-box.book-with-us-box li,
@@ -29,7 +29,6 @@
     border-radius: 50%!important;
     margin: -55px auto 25px;
     overflow: hidden;
-    box-shadow: 0 8px 6px -6px #112964;
     border: 2px solid #fff;
 }
 

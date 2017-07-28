@@ -149,7 +149,7 @@ html {
 }
 
 body {
-    font: 75%/150% "Lato", Arial, Helvetica, sans-serif;
+    font: 75%/150% "Prompt", Arial, Helvetica, sans-serif;
     background-color: #fff;
     color: #838383;
     overflow-x: hidden;
@@ -3150,8 +3150,8 @@ blockquote.style2:after {
 
 .travelo-box {
     background: #fff;
-    padding: 20px;
-    margin-bottom: 30px;
+    padding: 50px;
+    margin-bottom: 50px;
 }
 
 .travelo-box>*:last-child {
