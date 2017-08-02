@@ -24,7 +24,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</script>
 	<!-- Custom Theme files -->
 	<link href="css/bootstrap2.css" type="text/css" rel="stylesheet" media="all">
-	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+	<link href="css/profile/style.css" type="text/css" rel="stylesheet" media="all">
 	<link rel="stylesheet" href="css/swipebox.css">    
 	<link rel="stylesheet" href="css/ziehharmonika.css">
 	<!-- //Custom Theme files -->
@@ -44,7 +44,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 <body>
 	<!-- banner -->
-	<div class="banner about-banner">
+	<div class="banner about-banner" style="background-image:url('img/2.jpg')">
 		<div class="header agileinfo-header">
 			<!-- header -->
 			<nav class="navbar navbar-default">
